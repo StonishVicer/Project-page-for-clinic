@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Santa Ana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-box">
+                <img class="logo" src="/resources/logo.png" alt="Logo de la clínica Santa Ana">
+            </div>
+            <h1 class="page-title">Clínica Santa Ana</h1>
+        </nav>
+        <nav class="link-bar">
+            <ul>
+                <li><a href="">Pacientes y Visitantes</a></li>
+                <li><a href="">Programas y Servicios</a></li>
+                <li><a href="">Salud y Profesionales</a></li>
+                <li><a href="">Investigaciones en CSA</a></li>
+                <li><a href="">Educacion en CSA</a></li>
+                <li><a href="#formularios">Registro</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+            <form class="search-bar">
+                <input type="text" placeholder="Buscar CSA...">
+                <button type="submit">🔎</button>
+            </form>
+        </nav>
+    </header>
+
+
+
+    <section id="formularios">
+        <div class="formulario" id="registrar-paciente">
+            <div class="color-box">
+                <h3>Registrar Paciente</h3>
+            </div>
+            <form>
+                <label for="nombre-paciente">Nombre:</label>
+                <input type="text" id="nombre-paciente" name="nombre-paciente" required>
+                <label for="cedula-paciente">Cédula:</label>
+                <input type="text" id="cedula-paciente" name="cedula-paciente" required>
+                <label for="telefono-paciente">Teléfono:</label>
+                <input type="tel" id="telefono-paciente" name="telefono-paciente" required>
+                <label for="direccion-paciente">Dirección:</label>
+                <input type="text" id="direccion-paciente" name="direccion-paciente" required>
+                <button class="boton" type="submit">Registrar Paciente</button>
+            </form>
+        </div>
+
+        <div class="formulario" id="registrar-personal">
+            <div class="color-box">
+                <h3>Registrar Personal Médico</h3>
+            </div>
+            <form>
+                <label for="nombre-medico">Nombre:</label>
+                <input type="text" id="nombre-medico" name="nombre-medico" required>
+                <label for="cedula-medico">Cédula:</label>
+                <input type="text" id="cedula-medico" name="cedula-medico" required>
+                <label for="especialidad-medico">Especialidad:</label>
+                <input type="text" id="especialidad-medico" name="especialidad-medico" required>
+                <label for="consultorio-medico">Consultorio:</label>
+                <input type="text" id="consultorio-medico" name="consultorio-medico" required>
+                <button class="boton" type="submit">Registrar Personal</button>
+            </form>
+        </div>
+
+        
+    </section>
+    <h2 id="noticias">Últimas noticias</h2>
+    <section class="articulos">
+        
+        <div class="left card"><img class="tile-image" src="/resources/pancreatic_cancer.jpg" alt="Representación de terapia genética contra el cáncer de páncreas">
+            <h2 class="card-title">Nuevos Avances en la Lucha Contra el Cáncer de Páncreas</h2>
+            <p class="card-text">Investigadores han desarrollado una terapia genética prometedora que podría aumentar las tasas de supervivencia en pacientes con cáncer de páncreas avanzado.</p>
+          </div>
+      
+          <div class="right card"><img class="tile-image" src="/resources/artificial_intelligence.jpg" alt="IA analizando datos cardíacos en diagnóstico médico">
+            <h2 class="card-title">La Inteligencia Artificial Revoluciona los Diagnósticos Cardiológicos</h2>
+            <p>Un nuevo algoritmo de IA permite detectar enfermedades del corazón con mayor precisión que los métodos tradicionales, reduciendo tiempos de diagnóstico en emergencias.</p>
+          </div>
+
+          <div class="left card"><img class="tile-image" src="/resources/vaccine_alzheimer.jpg" alt="Investigador desarrollando vacuna experimental para el Alzheimer">
+            <h2 class="card-title">Vacuna Innovadora Ofrece Esperanza Contra la Enfermedad de Alzheimer</h2>
+            <p class="card-text">Científicos prueban una vacuna experimental que ha mostrado resultados alentadores al reducir los depósitos de placas amiloides en pacientes en fases tempranas de Alzheimer.</p>
+          </div>
+      
+          <div class="right card"><img class="tile-image" src="/resources/mental_health.jpg" alt="Ilustración de microbiota intestinal y cerebro humano conectados">
+            <h2 class="card-title">Descubren Relación Entre la Microbiota Intestinal y la Salud Mental</h2>
+            <p>Un estudio reciente sugiere que los desequilibrios en la microbiota intestinal podrían estar relacionados con trastornos de ansiedad y depresión, abriendo nuevas posibilidades terapéuticas.</p>
+          </div>
+
+          <div class="left card"><img class="tile-image" src="/resources/diabetes.jpg" alt="Joven recibiendo orientación médica para el tratamiento de diabetes tipo 2">
+            <h2 class="card-title">Nuevas Guías para el Manejo de la Diabetes Tipo 2 en Jóvenes</h2>
+            <p class="card-text">Internacional de Diabetes ha publicado nuevas recomendaciones para el tratamiento temprano de la diabetes tipo 2 en adolescentes, destacando la importancia de un enfoque multidisciplinario.</p>
+          </div>
+      
+          <div class="right card"><img class="tile-image" src="/resources/printed prostheses.jpg" alt="Prótesis personalizada impresa en 3D para pacientes amputados">
+            <h2 class="card-title">Prótesis Impresas en 3D Transforman la Vida de Pacientes Amputados</h2>
+            <p>La impresión 3D está permitiendo la creación de prótesis personalizadas de bajo costo, mejorando la movilidad y calidad de vida de pacientes en países en desarrollo.</p>
+          </div>
+
+          <div class="left card"><img class="tile-image" src="/resources/stem cells.jpg" alt="Ilustración de terapia con células madre para la esclerosis múltiple">
+            <h2 class="card-title">Terapia con Células Madre: Una Nueva Esperanza para la Esclerosis Múltiple</h2>
+            <p class="card-text">Internacional de Diabetes ha publicado nuevas recomendaciones para el tratamiento temprano de la diabetes tipo 2 en adolescentes, destacando la importancia de un enfoque multidisciplinario.</p>
+          </div>
+      
+          <div class="right card"><img class="tile-image" src="/resources/asthma.jpg" alt="Contaminación atmosférica y efectos en la salud respiratoria infantil">
+            <h2 class="card-title">Investigación Vincula la Contaminación del Aire con Aumentos en el Asma Infantil</h2>
+            <p>Un estudio global revela que la exposición prolongada a altos niveles de contaminación atmosférica incrementa significativamente el riesgo de desarrollar asma en niños, especialmente en áreas urbanas.</p>
+          </div>
+
+
+    </section>
+
+    <h2 id="nosotros">Quienes somos?</h2>
+    <section id="intro">
+        <div class="articulo">
+            <h2>Bienvenido a la Clínica Santa Ana</h2>
+            <p>En la Clínica Santa Ana, nos esforzamos por mejorar la gestión de los historiales médicos a través de sistemas digitales. Con nuestro enfoque innovador, facilitamos la atención médica de calidad, permitiendo a médicos y personal de salud acceder rápidamente a la información clave de los pacientes.</p>
+        </div>
+        <div class="articulo">
+            <h2>Nuestra Misión</h2>
+            <p>En la Clínica Santa Ana, nuestra misión es ofrecer atención médica integral, garantizando que cada paciente reciba el tratamiento adecuado en el momento preciso.</p>
+        </div>
+        <div class="articulo">
+            <h2>Servicios Médicos Especializados</h2>
+            <p>Contamos con una amplia gama de especialidades médicas, desde medicina general hasta áreas especializadas como cardiología, ginecología y pediatría.</p>
+        </div>
+        <div class="articulo">
+            <h2>Innovación y Futuro</h2>
+            <p>La innovación es un pilar fundamental en la Clínica Santa Ana. Nos encontramos en constante evolución para adaptarnos a las necesidades del mundo moderno.</p>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="copyright">
+            <p>&copy; 2024 Clínica Santa Ana. Todos los derechos reservados.</p>
+        </div>
+        
+        <div class="footer-info">
+            <div class="about-us">
+                <ul>
+                    <div class="about-title">Sobre CSA</div>
+                    <li>Nuestro periódico</li>
+                    <li>Equipo CSA</li>
+                    <li>Carreras en CSA</li>
+                    <li>CSA Internacional</li>
+                    <li>Accesibilidad en CSA</li>
+                    <li>Nuestras políticas</li>
+                </ul>
+            </div>
+            <div class="find">
+                <ul>
+                    <div class="find-title">Encontrar</div>
+                    <li>Departamentos de Emergencias</li>
+                    <li>Clinicas y centros</li>
+                    <li>Información de salud</li>
+                    <li>Pacientes y servicios familiares</li>
+                    <li>Doctores</li>
+                    <li>Mapas y direcciones</li>
+                    <li>Eventos</li>
+                    <li>Programa "Camina seguro"</li>
+                </ul>
+            </div>
+            <div class="connect">
+                <ul>
+                    <div class="connect-title">Conectar</div>
+                    <li>Remitir pacientes</li>
+                    <li>Contacto CSA</li>
+                    <li>Pagar una factura</li>
+                    <li>Suscribirte a myCSA</li>
+                    <li>Donar a CSA</li>
+                    <li>Videos</li>
+                    <li>Voluntariado</li>
+                </ul>
+            </div>
+            <div class="info">
+                <ul>
+                    <div class="information-title">Información para</div>
+                    <li>Pacientes y familiares</li>
+                    <li>Investigadores</li>
+                    <li>Educadores y aprendices</li>
+                </ul>
+            </div>
+            <div class="footer-logo-box">
+                <p class="logo-text">Afiliados con: <con class=""></con></p>
+                <img class="med-logo" src="/resources/fed-med-ve.png" alt="Logo de la Federación Médica Venezolana">
+                <img src="/resources/ucv.png" alt="Logo de la Universidad Central de Venezuela" class="ucv-logo">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
